@@ -238,6 +238,11 @@ body {
   border: 1px solid #e6e6e6;
 }
 
+.slider__img img {
+  width: 100%;
+  max-width: 880px;
+}
+
 .slider__pagination {
   display: -webkit-box;
   display: -ms-flexbox;
