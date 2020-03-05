@@ -24,10 +24,10 @@ body {
 .header {
     .concomitant {
         padding: 0 30px;
-        background-color: #ffffff;
+        background-color: $color-white;
         display: flex;
         justify-content: space-between;
-        border-top: 5px solid #81b300;
+        border-top: 5px solid $color-green;
         &-text {
             padding: 36px 0 37px 0;
             &__title {
@@ -59,7 +59,7 @@ body {
             border-bottom-left-radius: 15px;
             border-bottom-right-radius: 15px;
             height: 49px;
-            background-color: #81b300;
+            background-color: $color-green;
             ul {
                 justify-content: space-around;
                 li {
@@ -74,7 +74,7 @@ body {
                     transition-duration: 0.3s;
                     a {
                         display: block;
-                        color: #ffffff;
+                        color: $color-white;
                         text-align: center;
                     }
                     &:hover {
@@ -88,7 +88,7 @@ body {
             li {
                 margin-left: 8px;
                 a {
-                    color: #81b300;
+                    color: $color-green;
                     font-size: 12px;
                     font-weight: 400;
                     line-height: 14.4px;
@@ -103,7 +103,7 @@ body {
         display: flex;
         padding: 30px;
         min-height: 70px;
-        background-color: #81b300;
+        background-color: $color-green;
         justify-content: space-between;
         &__nav {
             display: flex;
@@ -116,7 +116,7 @@ body {
                 list-style: none;
                 a {
                     text-decoration: none;
-                    color: #ffffff;
+                    color: $color-white;
                     font-size: 13px;
                     font-weight: 400;
                     line-height: 13px;
@@ -135,7 +135,7 @@ body {
                 padding-left: 9px;
                 width: 215px;
                 height: 30px;
-                background-color: #ffffff;
+                background-color: $color-white;
                 border: none;
                 outline: none;
                 border-right: 1px solid #dddddd;
@@ -148,8 +148,8 @@ body {
                 outline: none;
                 height: 30px;
                 width: 282px - 215px;
-                background-color: #ffffff;
-                color: #81b300;
+                background-color: $color-white;
+                color: $color-green;
                 font-size: 12px;
                 font-weight: 700;
                 text-transform: uppercase;
@@ -218,7 +218,7 @@ body {
         }
         &__title {
             margin-top: 20px;
-            color: #81b300;
+            color: $color-green;
             font-size: 18px;
             font-weight: 400;
             line-height: 21.6px;
@@ -274,7 +274,7 @@ body {
         &__link {
             margin-top: 14px;
             display: block;
-            color: #81b300;
+            color: $color-green;
             font-size: 13px;
             font-weight: 400;
             line-height: 13px;
@@ -423,7 +423,7 @@ body {
                 border: none;
                 outline: none;
                 border-radius: 7px;
-                color: #81b300;
+                color: $color-green;
                 font-size: 13px;
                 font-weight: 400;
                 text-transform: uppercase;

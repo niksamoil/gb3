@@ -4866,6 +4866,9 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
+  .services-info__item {
+    margin-right: 0;
+  }
   .footer .contact, .footer .links, .footer .blog, .footer .newsletter {
     max-width: 70%;
     margin-bottom: 30px;

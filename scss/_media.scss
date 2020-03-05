@@ -55,6 +55,13 @@
             }
         }
     }
+
+    .services {
+        &-info__item {
+            margin-right: 0;
+        }
+    }
+
     .footer {
         .contact, .links, .blog, .newsletter {
             max-width: 70%;
