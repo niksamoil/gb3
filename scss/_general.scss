@@ -5,6 +5,11 @@
     font-family: 'Georgia';
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #1f1f1f;
 }
@@ -160,15 +165,12 @@ body {
     }
     &__img {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 898px;
-        width: 100%;
-        min-height: 378px;
         border: 1px solid #e6e6e6;
+        padding: 9px;
         img {
             width: 100%;
-            max-width: 880px;
+            object-fit: cover;
+            object-position: center center;
         }
     }
     &__pagination {
@@ -196,12 +198,14 @@ body {
 
 .services {
     .container {
-        padding: 52px 30px 50px 30px;
+        padding: 22px 30px 50px 30px;
         background-color: #ffffff;
     }
     &-info {
         display: flex;
+        padding: 0 30px;
         &__item {
+            margin-top: 30px;
             margin-right: 27px;
             display: flex;
             flex-direction: column;
@@ -228,7 +232,7 @@ body {
         }
     }
     .separator {
-        width: 900px;
+        max-width: 900px;
         margin: 50px auto 0;
         height: 1px;
         background-color: #e2e2e2;
@@ -246,9 +250,10 @@ body {
             display: flex;
             align-items: center;
             border: 1px solid #e2e2e2;
+            padding: 7px;
             img {
                 width: 100%;
-                object-fit: none;
+                object-fit: cover;
                 object-position: center center;
             }
         }
@@ -284,11 +289,11 @@ body {
 }
 
 .footer {
-    .container {
+    &__wrapper {
         padding: 41px 30px 37px 30px;
         background-color: #3b3b3b;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .contact {
         max-width: 198px;
@@ -395,6 +400,8 @@ body {
         }
         &__form {
             margin-top: 30px;
+            display: flex;
+            flex-direction: column;
             input {
                 padding-left: 10px;
                 width: 210px;
